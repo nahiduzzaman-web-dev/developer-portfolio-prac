@@ -12,7 +12,7 @@ p{
 .name-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -41,4 +41,39 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.song-area{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 10px;
+  
+}
+.song-best-area img{
+    height: 300px;
+    border-radius: 50%;
+    width: 60%;
+    margin-left: 20%;
+}
+.song-best-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#red-border-song-area{
+    border-left: 7px solid;
+    border-image: linear-gradient(red, orange);
+    border-image-slice: 1;
+    border-radius: 10px;
+
+}
+#blue-border-song-area{
+    border-left: 7px solid;
+    border-image: linear-gradient(violet, blue);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
