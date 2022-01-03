@@ -6,15 +6,20 @@ h1{
     font-size: 50px;
 
 }
+p{
+    text-align: justify;
+}
 .name-color{
     color: orange;
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
     padding-left: 2%;
+    padding-right: 5%;
 }
 .half-width img{
     width: 80%;    
@@ -30,4 +35,10 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    padding-top: 2%;
+}
+.dream-taylor{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
