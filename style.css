@@ -1,0 +1,33 @@
+body{
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+
+}
+.name-color{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 80%;    
+}
+.visit-button{
+    text-decoration: none;
+    background-image:  linear-gradient(orangered, blue );
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
